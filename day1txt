@@ -1,0 +1,19 @@
+'''
+What is the catch-all for conditions not specified?
+
+and; or; not
+
+True and True = True
+False and False = True
+True and False = False
+False and True = False
+
+True or True = True
+True or False = True
+False or False = False
+False or True = True
+
+not True = False
+not False = True
+
+'''
