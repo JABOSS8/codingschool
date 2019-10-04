@@ -1,0 +1,9 @@
+#You can use the print() function to print text and numbers to the terminal (black space on the right)
+##Strings, or words letters and symbols, must be put in quotes ("") to be able to be print
+##Numbers are considered a different data type than strings, and such must be cast using the str() function
+##To combine a string and a number, use the + operator
+##Example: print("my favorite number is" + str(8))
+
+print("&&&")
+print("& &")
+print("&&&")
