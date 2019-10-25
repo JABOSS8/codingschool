@@ -20,3 +20,11 @@ month=(9)
 print(month)
 month=(month+1)
 print(month)
+###Create a variable called color and put your favorite color into it. Then create a variable called seven and put the number 7 into it. Then print seven and color in the same print statement.
+color="blue"
+#print(color)
+seven=7
+#print(seven)
+print (str(seven)+ color  )
+
+
