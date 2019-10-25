@@ -1,0 +1,22 @@
+100 #integer numbers, also known as int, represent whole numbers
+
+1000.0 #float, also known as a floating point variable. Not a whole number
+
+"John" #String 
+
+
+##RULES FOR VARIABLE NAMES
+
+#1) Names cannot start with numbers.
+#2) There can be no spaces in variable names. Use an _ _(shift + dash) instead.
+#3) Can't use of the symbols for variable names: ' " , < > / ? | \ () ! @ # $ & * - +
+#4) It's considered best practice that names are all lowercase
+#5) Variable names should not be Python reserved words like with or not
+'''
+
+
+##Create a variable called month, and input the current month into it. Print the variable. Then, add one to the variable, and print it again.
+month=(9)
+print(month)
+month=(month+1)
+print(month)
