@@ -1,0 +1,32 @@
+'''
+#Create a variable, x, and prompt the user to enter their favorite color
+#If x is equal to "blue", print "okay"
+#if x is equal to red, print "cool"
+x = input("Please enter favorite color")
+
+
+if(x ==   "blue"):
+  print("okay")
+if(x ==    "red"):
+  print("cool")
+
+
+##Make a variable, called number, and prompt the user to enter their favorite number
+##If number is 4, print "That's my favorite number!"
+##Else, print "That's a good number"
+##REMINDER: When we take in inputs, the variable is a String 
+number = input("Please enter favorite number")
+if (number == "4"): 
+  print ("that my faorite number")
+else:
+  print ("that's a good")
+
+
+
+x = 11
+
+while(x <= 11):
+  print("x = " + str(x))
+  x = x + 1
+
+'''
