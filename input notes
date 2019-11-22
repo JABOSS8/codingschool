@@ -1,0 +1,74 @@
+'''#Create a variable x that takes user input with the prompt "Please enter an integer "
+x = input ("please enter an integer")
+
+#Cast x into an integer
+x = int(x)
+
+#Create a variable y that takes user input with the prompt "Please enter another integer "
+y = input ("please enter another integer")
+
+#Cast y into an integer
+y = int(y)
+
+#Create a variable, z, that is equal to x multiplied by y
+z = x * y
+
+#Print z
+print(z)
+'''
+
+'''
+CASTING NOTES
+
+For several reasons we will occasionally have to change the type of our variables. Sometimes an integer needs to become a String to be printable; sometimes a String needs to become an integer to do math.
+
+Casting a variable called x to an integer
+x = in
+Casting a variable called x to a String 
+y = str(y)
+
+Casting a variable called x to a float
+z = float(z)
+
+'''
+
+'''
+#EXAMPLES FOR CREATING A SIMPLE INPUT/OUTPUT 
+#CODE
+
+#Create a variable x that takes user input with the prompt "Please enter an integer "
+x = input ("please enter an integer")
+
+
+#Cast x into an integer
+x = int(x)
+
+#Multiply it by 3
+x = (x * 3)
+
+#Display result
+print(x)
+
+'''
+
+'''
+James A's example of input
+x = input ("please enter a number")
+x = int(x)
+x = (x * 3)
+print(x)
+'''
+
+#Create a variable x that takes user input with the prompt "Please enter an integer "times it by three then do x * y a str then enter a number for y
+
+##Create variable x, using input, with the prompt "please enter an integer"
+x = input("Please enter an integer \n")
+
+##Convert to an integer
+x = int(x)
+
+##Create variable y, using input to get a number that is a string 
+y = input("Please enter another number")
+
+##Print x * y
+print( x * y)
