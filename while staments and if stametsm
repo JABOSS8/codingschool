@@ -30,3 +30,16 @@ while(x <= 11):
   x = x + 1
 
 '''
+###Create a variable named xValue and have the user input a positive number
+
+###Cast xValue to a float
+
+###Have a while loop that repeatedly prints xValue and decreases it by 0.5 each time as long as xValue remains positive (greater than 0)
+xvalue = input("please enter a positive number")
+xvalue=float(xvalue)
+
+while(xvalue > 0 ):
+  xvalue = xvalue - 0.5
+  print(xvalue)
+
+
