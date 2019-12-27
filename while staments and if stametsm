@@ -41,5 +41,40 @@ xvalue=float(xvalue)
 while(xvalue > 0 ):
   xvalue = xvalue - 0.5
   print(xvalue)
+  '''
+HW 1
+Write a code that prints the whole numbers from 1 to 100 each on a separate line, BUT, for multiples of three, print “Fizz”, and for multiples of five print “Buzz” instead of the number. . For numbers which are multiples of both three and five, print “FizzBuzz” instead.
+'''
+
+##Create a variable to keep track of what number we are at
+x = 0
+
+##Create a while loop that runs until the counter reaches 100.
+while (x < 100):
+
+  ##Add one to counter
+  x = x + 1
+  
+  ##Check if x is a multiple of 3
+  if (x % 3 == 0):
+
+    ##Check if x is a multiple of 5
+    if (x % 5 == 0):
+
+      ##If x is a multiple of both 3 and 5, print "FizzBuzz"
+      print ("FizzBuzz")
+
+    ##If x is a multiple of just 3, print "Fizz"
+    else:
+      print("Fizz")
+  
+  ##Check if x is a multiple of 5
+  elif (x % 5 == 0):
+    ##If x is a multiple of  5, print "Buzz"
+    print("Buzz")
+
+  ##Otherwise, print x's current value
+  else:
+    print(x)
 
 
