@@ -106,5 +106,34 @@ while(z == 0):
 
 ##Print the result
 print ("LCM: " + str(w))
+'''
+HW 2 with a twist
+
+Develop a program to calculation the Least Common Multiple (LCM) of two numbers! Ask the user for the two values. Determine the greater of the two values, and assign this value to another variable. Then display the LCM. The key idea to this algorithm is a while loop and the modulus operator (%), which calculates the remainder after division. For example, 5 % 2 is 1 since 2 goes into 5 twice, with 1 left over. If the % operator returns 0, then the second number evenly divides into the first! Use these two commands to write your code.
+'''
+
+x = int(input("Please enter a number"))
+y = int(input("Please enter another number"))
+
+#if y is greater than x, make w to be equal to y
+if y > x :
+  w = y
+
+#if y is less than x, make w to be equal to x
+if y < x :
+ w = x
+ 
+z = 0
+while(z == 0):
+
+  if (w % x == 0):
+    if (w % y == 0):
+      ##If it is, change z so we can escape while loop
+      z = 1
+
+  if (z == 0):
+    w = w + 1
+print ("LCM: " + str(w))
+
 
 
