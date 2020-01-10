@@ -1,0 +1,70 @@
+'''
+INTERACTIVE CALCULATOR PROJECT
+
+You will be making an interactive calculator that allows a user to choose one of four operations -- adding, subtracting, multiplying, and dividing. Once the user has chosen the operation they want to perform, they must enter two numbers with which to perform the operation. Further, a user will be prompted to choose which operation to perform and then prompted what numbers they want to use. Then, the calculator you code will print the result.
+
+
+For reference, python symbols
++
+-
+/
+*
+
+'''
+
+switch = 1
+
+while(switch == 1):
+
+  ##First, prompt the user to choose whether to add, subtract, multiply, or divide, and store that input into a variable called op.
+  op = input("please choose one of the symbols * + / -")
+
+
+  ## Then, use if statements to identify the type of operation used. Within each if statement, prompt the user to enter additional numbers. I will do the addition version of this first as an example.
+
+  #Check if op is addition
+  if (op == "+"):
+    #Prompt user to enter the first number to add. Store it in a variable called add1.
+    add1 = float(input("Please enter a number"))
+
+    #Prompt user to enter the second number to add. Store it in a variable called add2.   
+    add2 = float(input("Please enter a number"))
+
+    #Then, add the two numbers and store it in a result called summ
+    summ = add1 + add2
+
+    #Finally, print the result
+    print(summ)
+
+    
+  if (op == "-"):
+    subtract1 = float(input("please enter a number"))
+    subtract2  = float(input("please enter a number"))
+    difference = subtract1 - subtract2
+    print(difference)
+    
+
+  if (op =='*'):
+    multiply1 = float(input("please enter a number"))
+    multiply2 = float(input("please enter a number"))
+    prouduct = multiply1 * multiply2
+    print(prouduct)
+
+
+  if (op =='/'):
+    divide1 = float(input("please enter a number"))
+    divide2 = float(input("please enter a number"))
+
+    ##if divide2 is equal to 0, prompt them to enter a number for divide2 again
+    if (divide2 == 0 ):
+      divide2 = float(input("please enter another number that is not 0"))
+    
+    quotient = divide1/divide2 
+     
+    print(quotient)
+
+  option = input("Do you want to perform another function? Type yes to continue, or type anything to quit")
+  
+  if(option != "yes"):
+    switch = 0
+    
