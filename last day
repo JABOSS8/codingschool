@@ -1,0 +1,171 @@
+#Variables are created when they are first assigned values.
+#The value associated to a variable can be updated to a new value when used in an expression.
+#Variables must be declared in expressions.
+
+#counter = 100   #integer
+#miles = 1000.0  #float
+#name = "John"   #string
+
+#print(counter)
+#print(miles)
+#print(name)
+
+#changing = 3
+#print(changing)
+#changing = 9
+#print(changing)
+
+#red = 5
+#blue = 10
+#print(red, blue)
+
+#yellow = red
+#print(yellow, red, blue)
+
+#a = b = c = 1
+
+#print(a,b,c)
+
+#a, b, c = 1, 2, "John"
+
+#print(a,b,c)
+
+
+###RULES FOR VARIABLE NAMES###
+#Names cannot start with a number
+#There can be no spaces in the name; you use _ instead if you want to separate terms
+#Can't use the following for variable names: ' " <>, / ? | \ () ! @  # $ % & * - +
+# It's considered best practice that names are lowercase
+#Variable names should be Python reseved like with, if, not, and, and son.
+
+#x = None
+#print(x)
+
+
+#var1 = 1
+#var2 = 10
+#var3 = 4E2
+
+#print(float(2))
+#print(int(2.0))
+
+#print(4+2)
+#print(4*2)
+#print(4**2) #The ** means raising the number on the left to the power of the number on the right
+
+#print (1+1 ) #adding an integer to an integer yields an integer
+#print(1+1.0) #adding an integer to a float yields a float
+
+#print(9/3) #using a single slash here yields a float
+#print(9//3) #using a double slash here yields an integer
+
+#print('I am a single quoted string')
+#print("I am a double quoted string")
+#print("""I am a triple quoted string""")
+
+#print("So I said, \"You don't know me \"")
+#print('So I said, \"You don\'t know me.\"')
+#print("""This statement will only have three backslashes: \\ \\ \\""")
+
+#print("I want to have a long space, also known as a tab,\tin this sentence.")
+#print("I want this single print statement\nto print on two lines.")
+
+
+#s = "Hello" 
+#print(s[0]) #Prints H, because it accesses the 0th term in the string
+
+#s = ["dog", 1, [3,4]]
+#print(s[2][1])
+
+
+##Boolean
+#size = 1
+#print(size < 1)
+
+
+
+##Print a string: He said "I'll go later"
+#Use single quotes, double quotes, and triple quotes
+#print('He said \"I\'ll go later\"')
+#print("He said \"I\'ll go later\"")
+#print("""He said \"I\'ll go later\"""")
+
+
+
+#Create three different variables called name, age, and salary.
+#Assign name with your own name
+#Assign age with your own age
+#Assign salary with 3000.50
+#Print them on separate lines
+#name = "James"
+#age = 11
+#salary = 3000.50
+#print(name)
+#print(age)
+#print(salary)
+
+
+
+
+#Create a variable called temperature and assign it with 45
+#Consider 45 to be in fahrenheit
+#Using only the variable temperature, convert temperature to celsius value.
+#Formula: celsius = (fahrenheit - 32) * 5 / 9
+#Once you have converted temperature, print temperature to screen.
+#temperature = 45
+#temperature = (temperature - 32) * 5 / 9
+#print (temperature)
+
+
+###Write what you think the sample outputs will be
+#A
+#spam = 2
+#eggs = 3
+#eggs = 4
+#spam = 5
+#print("A:\n" + str(spam * eggs))
+
+#20
+
+
+#B
+#x= 5
+#y = 7
+#print("B:\n" + str(x+y))
+
+#12
+
+
+#C -- be careful!
+#x = 2
+#X = 4
+#print("X = " + str(x))
+#print("x = " + str(X))
+
+#X = 2
+#x = 4
+
+
+#Write a print statement to say "Hello!"
+#A: print("Hello!")
+
+#What is 2**5?
+#A: 32
+
+#What is 6 % 2?
+#A: 0
+
+#What is (True and False) and True
+##(False) and True
+###A: False
+
+#What is the catch-all for conditions not specified?
+#Translation: When you're using an if statement, what ELSE can you use following the if statement?
+#A: else
+
+#What does the # symbol mean?
+#A: comment
+
+#What does the following code do?
+#print("xyz" * 2)
+#xyzxyz
